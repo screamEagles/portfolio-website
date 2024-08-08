@@ -25,7 +25,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-none pl-2">
         <li>NEDUET Karachi (2020 - 2024)</li>
-        <li>Saint Patrick's High School Karachi (2007 - 2020)</li>
+        <li>Saint Patricks High School Karachi (2007 - 2020)</li>
       </ul>
     ),
   },

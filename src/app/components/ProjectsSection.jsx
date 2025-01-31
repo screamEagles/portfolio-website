@@ -17,7 +17,7 @@ const projectsData = [
     id: 2,
     title: "Realtime Shape Area",
     image: "/images/projects/realtime_shape_area.png",
-    tag: ["All", "Computer Vision"],
+    tag: ["All", "OpenCV"],
     gitUrl: "https://github.com/screamEagles/shape-area",
     previewUrl: "https://github-production-user-asset-6210df.s3.amazonaws.com/91723589/360371571-f0bf783f-8b85-448e-b909-5a63ac5c8eb6.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250131%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250131T062649Z&X-Amz-Expires=300&X-Amz-Signature=4e4cc4994b0241da67e91e82fab37093d6151488a87d5b76bce7198fa8c625d0&X-Amz-SignedHeaders=host",
   },
@@ -84,7 +84,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
+        What I Made
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
@@ -99,16 +99,11 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Computer Vision"
-          isSelected={tag === "Computer Vision"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Blogs"
-          isSelected={tag === "Blogs"}
+          name="OpenCV"
+          isSelected={tag === "OpenCV"}
         />
       </div>
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
+      <ul ref={ref} className={`grid md:grid-cols-3 gap-8 md:gap-12 ${filteredProjects.length > 3 ? "max-h-[500px] overflow-y-auto" : ""}`}>
         {filteredProjects.map((project, index) => (
           <motion.li
             key={index}

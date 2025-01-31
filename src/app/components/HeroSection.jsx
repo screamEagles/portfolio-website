@@ -17,18 +17,18 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-2xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Hello, I am{" "}
+              Hello, I{" "}
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
-                "Umair",
+                "am Umair",
                 1000,
-                "A Web Developer",
+                "create websites",
                 1000,
-                "A Blog Writer",
+                "write blogs",
                 1000,
-                "An OpenCV Enthusiast",
+                "make OpenCV projects",
                 1000,
               ]}
               wrapper="span"

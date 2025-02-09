@@ -15,6 +15,14 @@ const projectsData = [
   },
   {
     id: 2,
+    title: "Motion Capture",
+    image: "/images/projects/motion_capture.png",
+    tag: ["All", "OpenCV"],
+    gitUrl: "https://github.com/screamEagles/motion-capture",
+    previewUrl: "https://github.com/user-attachments/assets/8cf1de45-8548-4124-add3-096f2e64205f",
+  },
+  {
+    id: 3,
     title: "Realtime Shape Area",
     image: "/images/projects/realtime_shape_area.png",
     tag: ["All", "OpenCV"],
@@ -22,7 +30,7 @@ const projectsData = [
     previewUrl: "https://github-production-user-asset-6210df.s3.amazonaws.com/91723589/360371571-f0bf783f-8b85-448e-b909-5a63ac5c8eb6.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250131%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250131T062649Z&X-Amz-Expires=300&X-Amz-Signature=4e4cc4994b0241da67e91e82fab37093d6151488a87d5b76bce7198fa8c625d0&X-Amz-SignedHeaders=host",
   },
   {
-    id: 3,
+    id: 4,
     title: "Spieldaas",
     image: "/images/projects/spieldaas.png",
     tag: ["All", "Web"],
@@ -30,20 +38,12 @@ const projectsData = [
     previewUrl: "https://user-images.githubusercontent.com/91723589/216777829-7f3441e7-c823-4e91-aaa6-2b744553e17e.mp4",
   },
   {
-    id: 4,
+    id: 5,
     title: "Pak-Forts",
     image: "/images/projects/pak_forts.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/screamEagles/pak-forts",
     previewUrl: "https://verdant-sprinkles-94ba51.netlify.app/",
-  },
-  {
-    id: 5,
-    title: "School Website",
-    image: "/images/projects/school_website.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/screamEagles/school-website",
-    previewUrl: "https://user-images.githubusercontent.com/91723589/219856335-f6e7f1b3-df40-49ca-8de9-4163e0c3a32a.mp4",
   },
   {
     id: 6,
@@ -55,6 +55,14 @@ const projectsData = [
   },
   {
     id: 7,
+    title: "School Website",
+    image: "/images/projects/school_website.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/screamEagles/school-website",
+    previewUrl: "https://user-images.githubusercontent.com/91723589/219856335-f6e7f1b3-df40-49ca-8de9-4163e0c3a32a.mp4",
+  },
+  {
+    id: 8,
     title: "Online Morse",
     image: "/images/projects/online_morse.png",
     tag: ["All", "Web"],

@@ -9,13 +9,10 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-none pl-2">
-        <li>MERN Stack</li>
-        <li>Postman/Insomnia</li>
-        <li>NextJS</li>
-        <li>Python</li>
         <li>OpenCV</li>
-        <li>Git</li>
         <li>Blog Writing</li>
+        <li>ReactJS</li>
+        <li>Postman/Insomnia</li>
       </ul>
     ),
   },

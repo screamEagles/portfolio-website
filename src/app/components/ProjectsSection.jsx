@@ -23,6 +23,14 @@ const projectsData = [
   },
   {
     id: 3,
+    title: "Parking Space Counter",
+    image: "/images/projects/parking_space_counter.png",
+    tag: ["All", "OpenCV"],
+    gitUrl: "https://github.com/screamEagles/parking-space-counter",
+    previewUrl: "https://github.com/user-attachments/assets/93cb064c-9b11-4b3f-b941-3e4a49f85572",
+  },
+  {
+    id: 4,
     title: "Realtime Shape Area",
     image: "/images/projects/realtime_shape_area.png",
     tag: ["All", "OpenCV"],
@@ -30,7 +38,7 @@ const projectsData = [
     previewUrl: "https://github-production-user-asset-6210df.s3.amazonaws.com/91723589/360371571-f0bf783f-8b85-448e-b909-5a63ac5c8eb6.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250131%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250131T062649Z&X-Amz-Expires=300&X-Amz-Signature=4e4cc4994b0241da67e91e82fab37093d6151488a87d5b76bce7198fa8c625d0&X-Amz-SignedHeaders=host",
   },
   {
-    id: 4,
+    id: 5,
     title: "Spieldaas",
     image: "/images/projects/spieldaas.png",
     tag: ["All", "Web"],
@@ -38,7 +46,7 @@ const projectsData = [
     previewUrl: "https://user-images.githubusercontent.com/91723589/216777829-7f3441e7-c823-4e91-aaa6-2b744553e17e.mp4",
   },
   {
-    id: 5,
+    id: 6,
     title: "Pak-Forts",
     image: "/images/projects/pak_forts.png",
     tag: ["All", "Web"],
@@ -46,7 +54,7 @@ const projectsData = [
     previewUrl: "https://verdant-sprinkles-94ba51.netlify.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Zik-r",
     image: "/images/projects/zik_r.png",
     tag: ["All", "Web"],
@@ -54,7 +62,7 @@ const projectsData = [
     previewUrl: "https://zik-r.netlify.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "School Website",
     image: "/images/projects/school_website.png",
     tag: ["All", "Web"],
@@ -62,7 +70,7 @@ const projectsData = [
     previewUrl: "https://user-images.githubusercontent.com/91723589/219856335-f6e7f1b3-df40-49ca-8de9-4163e0c3a32a.mp4",
   },
   {
-    id: 8,
+    id: 9,
     title: "Online Morse",
     image: "/images/projects/online_morse.png",
     tag: ["All", "Web"],

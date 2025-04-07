@@ -11,8 +11,10 @@ const TAB_DATA = [
       <ul className="list-none pl-2">
         <li>OpenCV</li>
         <li>Blog Writing</li>
+        <li>Canva</li>
         <li>ReactJS</li>
-        <li>Postman/Insomnia</li>
+        <li>NextJS</li>
+        <li>Postman</li>
       </ul>
     ),
   },
